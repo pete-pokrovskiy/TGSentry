@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TGSentry.Infra.Contract\TGSentry.Infra.Contract.csproj" />
+      <ProjectReference Include="..\TGSentry.Logic.Contract\TGSentry.Logic.Contract.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0-rc.2.21480.5" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0-rc.2.21480.5" />
+    </ItemGroup>
+
+</Project>
